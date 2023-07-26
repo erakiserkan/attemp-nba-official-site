@@ -1,0 +1,74 @@
+*{
+    font-family: 'Roboto',sans-serif;
+}
+
+.secondaryBg{
+    background:#fff;
+    height:auto;
+    max-width: fit-content;
+    min-height: 70%;
+    margin-top:8%;
+    margin-left:10%;
+    margin-right:10%;
+    margin-bottom:10%;
+    padding:2%;
+    position: relative;
+    box-sizing: border-box;
+
+}
+
+.teamPageHeader{
+    font-size:20px;
+    font-weight: 700;
+    font-style: normal;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.sectionHeader{
+    font-size:14px;
+    font-weight: 700;
+    font-style: normal;
+
+}
+.teamPageTeamHeader{
+    font-size:16px;
+    font-weight: 500;
+    font-style: normal;
+
+    padding: 5px;
+}
+.teamPageTeams{
+    white-space: nowrap;
+    font-size:18px;
+    font-weight: 400;
+    font-style: normal;
+
+    text-decoration: none;
+    color:black;
+    margin-left:5px;
+}
+.teamPAgeSubTeamsAttDiv{
+    display: inline-block;
+    margin-left: 5px;
+    white-space: nowrap;
+}
+.teamPageSubTeamsAttDiv > a{
+    font-size:14px;
+    font-weight: 400;
+    font-style: normal;
+    display:inline-block;
+    flex-wrap: nowrap;
+    text-decoration: none;
+    color: #4f4fef !important;
+    margin:0;
+    padding:2px;
+}
+.teamCol{
+display:flex;
+flex-wrap:nowrap;
+padding:1vh;
+white-space:nowrap;
+
+}
+

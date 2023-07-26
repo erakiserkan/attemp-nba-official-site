@@ -1,0 +1,60 @@
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size:14px;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #cbc6c6;
+}
+.teamsDropdownMenu{
+    height: auto;
+    max-width:700px;
+    width: max-content;
+    display:flex;
+
+}
+@media screen and (max-width: 992px) {
+    .teamsDropdownMenu {
+        width:450px;
+    }
+}
+.teamsDropdownCol{
+    display: flex;
+    flex-direction: column;
+
+    padding:5px;
+    box-sizing: border-box;
+}
+.teamsDropdownItem{
+    display: flex;
+    align-items: center;
+    min-width: fit-content;
+    padding-top: 0.25rem;
+
+    padding-bottom: 0.25rem;
+    border-radius: 0.25rem;
+    font-size:13px;
+    font-weight: 400;
+    font-style:normal;
+
+}
+.teamsDropdown li{
+    flex-grow: 1;
+
+}
+.teamsHeaderDropdown{
+    font-size:10px;
+    font-weight:700;
+    font-style: normal;
+
+}
+
+.navbar-brand{
+    font-size:30px;
+    font-weight: 600;
+    line-height: 0.4;
+    display: flex;
+    align-items: center;
+
+}
