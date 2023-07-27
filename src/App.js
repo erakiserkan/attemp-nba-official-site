@@ -11,6 +11,7 @@ import Footer from "./Components/Footer";
 
 
 import {Navbar, Nav, Container, NavDropdown,} from "react-bootstrap";
+import LoginPage from "./Pages/LoginPage";
 
 
 
@@ -36,7 +37,7 @@ function App(props) {
         <div style={{backgroundColor:"#f2f2f2"}} >
             <Header goTeamOffPage={getTeamPage} nbaData={nbaData}/>
 
-            <div  style={{minHeight:"50vh"}} >
+            <div  style={{minHeight:"80vh"}} >
 
                 <Router >
 
@@ -46,6 +47,7 @@ function App(props) {
                         <Route path="news" element={<News/>}/>
                         <Route path="teams"
                                element={<TeamsPage goTeamOffPage={getTeamPage} nbaData={nbaData}/>}></Route>
+                        <Route path="account/sign-in" element={<LoginPage />}></Route>
                         <Route path="standings" element={<Standings/>}/>
                     </Routes>
                 </Router>

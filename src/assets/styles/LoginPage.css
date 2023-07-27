@@ -1,0 +1,87 @@
+.loginBody{
+    display:flex;
+    flex-direction: column;
+    min-width: 400px;
+    max-width: 30vw;
+    min-height: 50vh;
+    max-height: 60vh;
+    background-color: #fff;
+    position: relative;
+    margin:2vh auto 1vh auto;
+}
+
+.loginPageInput {
+    border:none;
+    margin:0 auto 0 auto;
+    min-width: 90%;
+    position: relative;
+    height: auto;
+    transition: height 2s ease;
+    box-sizing: border-box;
+}
+.loginPageInput:focus{
+    height: auto;
+    outline: none!important;
+}
+.loginPageInputGroup{
+display:inline-block;
+border-bottom:1px solid grey;
+margin:auto;
+width:90%;
+position:relative;
+
+}
+.loginPageLabel {
+    margin:3vh auto 0 auto;
+    min-width: 90%;
+    z-index: 999;
+    transition: font-size 0.2s ease;
+
+}
+
+.signButton{
+    min-width:80%;
+    margin:2vh auto 2vh auto;
+    color:#fff;
+    background-color: black;
+    border:1px solid black;
+    padding:2vh;
+
+}
+.signButton:hover{
+    color:black;
+    background-color: #fff;
+    border:1px solid black;
+}
+.forgotPassword{
+    padding:2vh;
+    color:black;
+    display:flex;
+    justify-content: flex-end;
+
+}
+
+.forgotPassword:hover{
+    color:black;
+}
+.loginPageLinkNbaId{
+    display:flex;
+    justify-content: center;
+    text-decoration: underline black;
+    margin:2vh auto 2vh auto;
+    color:black;
+}
+.loginPageLinkNbaId:hover{
+   color:black;
+}
+.loginPageBigHeader{
+    margin-top:8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    font-style: normal;
+    font-size:max(2vw,25px);
+    font-family: 'Archivo Black', sans-serif;
+    white-space: nowrap;
+}

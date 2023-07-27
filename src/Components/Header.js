@@ -111,8 +111,8 @@ function Header(props) {
                         </Nav>
                         <Nav className="custom-nav">
                             <Nav.Link href="#deets">More deets</Nav.Link>
-                            <Nav.Link eventKey={2} href="#memes">
-                                Dank memes
+                            <Nav.Link eventKey={2} href="/account/sign-in">
+                                Sign in
                             </Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
